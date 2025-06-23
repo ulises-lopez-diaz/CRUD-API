@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZOz8sW2HFEzKYJycCdOu8aQtB1Pxm8nMnBGXrDm8ijkqVny63xCv3lyasN7RJfP6XNeF42M+VWElZlDEVlBzmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC MONKEY\\OneDrive\\Escritorio\\Developer\\backend_developer_microsoft_c#\\backend_development_with_net\\project1\\UserManagementAPI\\UserManagementAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC MONKEY\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.20\\microsoft.aspnetcore.openapi.7.0.20.nupkg.sha512",
+    "C:\\Users\\PC MONKEY\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\PC MONKEY\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\PC MONKEY\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\PC MONKEY\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\PC MONKEY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\PC MONKEY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
