@@ -30,8 +30,8 @@ namespace UserManagementAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error al obtener usuarios.");
-                return StatusCode(500, "Error interno del servidor");
+                _logger.LogError(ex, "Error at getting user");
+                return StatusCode(500, "Internal Server Error");
             }
         }
 
@@ -45,14 +45,14 @@ namespace UserManagementAPI.Controllers
                 var user = Users.FirstOrDefault(u => u.Id == id);
                 if(user == null)
                 {
-                    return NotFound($"Usuario con ID {id} no encontrado");
+                    return NotFound($"User with ID {id} Not Found");
 
                 }
                 return Ok(user);
             }catch(Exception ex)
             {
-                _logger.LogError(ex, "Error al obtener usuario por ID");
-                return StatusCode(500, "Error interno del servidor");
+                _logger.LogError(ex, "Error at getting user by ID");
+                return StatusCode(500, "Internal Server Error");
             }
         }
 
@@ -71,8 +71,8 @@ namespace UserManagementAPI.Controllers
                 return CreatedAtAction(nameof(GetUserById), new { id = newUser.Id }, newUser);
             }catch(Exception ex)
             {
-                _logger.LogError(ex, "Error al crear el usuario.");
-                return StatusCode(500, "Error interno del servidor");
+                _logger.LogError(ex, "Error at creating user");
+                return StatusCode(500, "Internal Server Error");
             }
            
         }
@@ -99,8 +99,8 @@ namespace UserManagementAPI.Controllers
                 return NoContent();
             } catch(Exception ex)
             {
-                _logger.LogError(ex, "Error al actualizar el usuario.");
-                return StatusCode(500, "Error interno del servidor.");
+                _logger.LogError(ex, "Error at updating user");
+                return StatusCode(500, "Internal Server Error");
             }
             
         }
@@ -122,8 +122,8 @@ namespace UserManagementAPI.Controllers
                 return NoContent();
             } catch(Exception ex)
             {
-                _logger.LogError(ex, "Error al eliminar el usuario.");
-                return StatusCode(500, "Error interno del servidor.");
+                _logger.LogError(ex, "Error at deleting user");
+                return StatusCode(500, "Internal Server Error");
             }
             
         }
